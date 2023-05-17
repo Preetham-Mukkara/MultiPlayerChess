@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.1.7",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.5.0"
+  },
+  "name": "multiplayerchess",
+  "description": "Chess with the option to have multiple players play in a single game of chess",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build && node build/index.js",
+    "start:dev": "npx nodemon",
+    "build": "rimraf ./build && tsc"
+  },
+  "keywords": [],
+  "author": "Preetham Mukkara",
+  "license": "ISC"
+}
